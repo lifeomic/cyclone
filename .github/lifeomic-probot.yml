@@ -1,5 +1,5 @@
 enforceSemanticCommits: true
 reportWorkflowFailures:
   Release:
-    # This is #fountain-life-app-dev
-    slackChannel: C05KMKQNTAR
+    # This is #open-source
+    slackChannel: C04928K3H5Z
