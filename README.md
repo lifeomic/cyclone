@@ -49,8 +49,8 @@ Blow away those cycles 🌪️
 
 - `targetDir`: the specific directory where the cycle checks/enforcements
   should happen.
-- `disallowedDependencies`: an array of objects that define the disallowed
-  explicit disallowed dependencies.
+- `disallowedDependencies`: an array of objects that define the explicit
+  disallowed dependencies.
     - `from`: Object specifying the source of the forbidden dependency.
       - `value`: a regular expression that should match the directory or file
         that should not be allowed to import the `to` value.
