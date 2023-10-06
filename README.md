@@ -63,6 +63,8 @@ Blow away those cycles 🌪️
       - `negate`: if true, the `value` regular expression will be negated.
       - `caseInsensitive`: if true, the `value` regular expression will be
         case insensitive.
+    - `message`: optional - a message to display when the forbidden dependency
+      enforcement is violated.
 - `fileExtensions`: optional - defaults to `["ts", "js"]`. These are valid file
   extensions used to find files in directories. Passed directly to madge.
 
