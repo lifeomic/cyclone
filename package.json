@@ -4,20 +4,25 @@
   "description": "Blow away those annoying cycles.",
   "main": "index.js",
   "repository": "git@github.com:lifeomic/cyclone.git",
+  "bin": {
+    "cyclone": "cli.js"
+  },
   "author": "LifeOmic <development@lifeomic.com>",
   "license": "",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint src",
+    "lint": "eslint src && tsc --noEmit",
     "test": "jest",
     "build": "node build.js"
   },
   "devDependencies": {
     "@lifeomic/eslint-config-standards": "^3.0.1",
     "@lifeomic/typescript-config": "^2.0.0",
+    "@types/graphlib": "^2.1.9",
     "@types/jest": "^29.2.0",
+    "@types/madge": "^5.0.1",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
@@ -27,5 +32,10 @@
     "semantic-release": "^19.0.5",
     "ts-jest": "^29.0.3",
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "graphqlib": "^0.1.3",
+    "madge": "^6.1.0",
+    "zod": "^3.22.4"
   }
 }

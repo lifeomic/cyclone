@@ -2,13 +2,12 @@
   "extends": "@lifeomic/typescript-config",
   "include": ["./**/*.ts", "./**/*.tsx"],
   "compilerOptions": {
-    "lib": ["es2020", "DOM"],
-    "module": "ES2022",
+    "target": "ES2021",
+    "module": "CommonJS",
+    "lib": ["ES2021"],
     "outDir": "./dist",
-    "jsx": "react",
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "inlineSources": false,
-    "inlineSourceMap": false,
-    "declaration": true
+    "inlineSourceMap": false
   }
 }
