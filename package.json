@@ -34,7 +34,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "graphqlib": "^0.1.3",
+    "graphlib": "^2.1.8",
     "madge": "^6.1.0",
     "zod": "^3.22.4"
   }
