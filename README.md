@@ -13,7 +13,7 @@ code in every repo that wants to check for cyclic dependencies.
 Install the package:
 
 ```
-yarn add @lifeomic/cyclone
+yarn add -D @lifeomic/cyclone
 ```
 
 Add a `cyclone.config.json` file to the root of the project with the following

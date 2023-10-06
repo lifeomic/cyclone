@@ -8,7 +8,7 @@
     "cyclone": "cli.js"
   },
   "author": "LifeOmic <development@lifeomic.com>",
-  "license": "",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
