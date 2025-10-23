@@ -12,7 +12,7 @@ const RegExpConfig = z.object({
 });
 
 const Config = z.object({
-  targetDir: z.string(),
+  targetDir: z.union([z.string(), z.array(z.string())]),
   disallowedDependencies: z.array(
     z.object({
       from: RegExpConfig,
