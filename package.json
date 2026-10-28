@@ -36,6 +36,6 @@
   "dependencies": {
     "graphlib": "^2.1.8",
     "madge": "^6.1.0",
-    "zod": "^3.22.4"
+    "zod": "^4.6.6"
   }
 }
